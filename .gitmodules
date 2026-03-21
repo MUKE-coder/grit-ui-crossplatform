@@ -1,3 +1,0 @@
-[submodule "crates/leptos_ui"]
-	path = crates/leptos_ui
-	url = https://github.com/rust-ui/leptos-ui.git
