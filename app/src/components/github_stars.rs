@@ -19,14 +19,11 @@ pub async fn fetch_github_stars() -> Result<u32, ServerFnError> {
     if let Ok(token) = std::env::var("GH_TOKEN") {
         request = request.header("Authorization", format!("Bearer {token}"));
     }
-    let response = request
-        .send()
-        .await
-        .map_err(|e| {
-            let msg = format!("Failed to fetch GitHub stars: {e}");
-            tracing::warn!("{msg}");
-            ServerFnError::new(msg)
-        })?;
+    let response = request.send().await.map_err(|e| {
+        let msg = format!("Failed to fetch GitHub stars: {e}");
+        tracing::warn!("{msg}");
+        ServerFnError::new(msg)
+    })?;
 
     let repo: GithubRepoResponse = response.json().await.map_err(|e| {
         let msg = format!("Failed to parse GitHub response: {e}");

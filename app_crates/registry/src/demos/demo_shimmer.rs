@@ -51,9 +51,7 @@ pub fn DemoShimmer() -> impl IntoView {
                 <Button variant=ButtonVariant::Outline on:click=move |_| loading.set(!loading.get())>
                     "Toggle Loading"
                 </Button>
-                <Button on:click=on_fetch>
-                    "Fetch Data (1s)"
-                </Button>
+                <Button on:click=on_fetch>"Fetch Data (1s)"</Button>
             </div>
 
             <Shimmer loading=Signal::from(loading)>

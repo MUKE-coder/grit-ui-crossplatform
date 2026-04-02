@@ -45,9 +45,7 @@ pub fn Login01() -> impl IntoView {
                                         <Input attr:r#type="password" attr:id="password" attr:required=true />
                                     </div>
                                     <div class="flex flex-col gap-3">
-                                        <Button class="w-full">
-                                            Login
-                                        </Button>
+                                        <Button class="w-full">Login</Button>
                                         <Button variant=ButtonVariant::Outline class="w-full">
                                             Login with Google
                                         </Button>
