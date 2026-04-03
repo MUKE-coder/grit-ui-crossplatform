@@ -1,0 +1,26 @@
+{
+  "name": "@grit-ui/native",
+  "version": "0.1.0",
+  "description": "84 React Native components for Grit UI with NativeWind",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.73.0",
+    "nativewind": ">=4.0.0"
+  },
+  "dependencies": {
+    "@grit-ui/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "nativewind": "^4.1.0",
+    "react": "^19.0.0",
+    "react-native": "^0.76.0",
+    "tailwind-merge": "^2.6.0",
+    "typescript": "^5.7.0"
+  }
+}

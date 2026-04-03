@@ -1,0 +1,26 @@
+{
+  "name": "@grit-ui/core",
+  "version": "0.1.0",
+  "description": "Shared utilities, theme, and variant system for Grit UI",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./cn": "./src/cn.ts",
+    "./theme": "./src/theme.ts",
+    "./variants": "./src/variants.ts",
+    "./types": "./src/types.ts"
+  },
+  "peerDependencies": {
+    "class-variance-authority": ">=0.7.0",
+    "clsx": ">=2.0.0",
+    "tailwind-merge": ">=2.0.0"
+  },
+  "devDependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "typescript": "^5.7.0"
+  }
+}

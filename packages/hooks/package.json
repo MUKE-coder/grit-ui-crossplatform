@@ -1,0 +1,46 @@
+{
+  "name": "@grit-ui/hooks",
+  "version": "0.1.0",
+  "description": "Headless React hooks for Grit UI components",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./use-click-outside": "./src/use-click-outside.ts",
+    "./use-media-query": "./src/use-media-query.ts",
+    "./use-is-mobile": "./src/use-is-mobile.ts",
+    "./use-copy-clipboard": "./src/use-copy-clipboard.ts",
+    "./use-lock-body-scroll": "./src/use-lock-body-scroll.ts",
+    "./use-theme-mode": "./src/use-theme-mode.ts",
+    "./use-pagination": "./src/use-pagination.ts",
+    "./use-press-hold": "./src/use-press-hold.ts",
+    "./use-data-scrolled": "./src/use-data-scrolled.ts",
+    "./use-horizontal-scroll": "./src/use-horizontal-scroll.ts",
+    "./use-can-scroll": "./src/use-can-scroll.ts",
+    "./use-can-scroll-vertical": "./src/use-can-scroll-vertical.ts",
+    "./use-history": "./src/use-history.ts",
+    "./use-form": "./src/use-form.ts",
+    "./use-virtual-scroll": "./src/use-virtual-scroll.ts",
+    "./use-breadcrumb": "./src/use-breadcrumb.ts",
+    "./use-column-state": "./src/use-column-state.ts",
+    "./use-cell-edit": "./src/use-cell-edit.ts",
+    "./use-cell-selection": "./src/use-cell-selection.ts",
+    "./use-drag-selection": "./src/use-drag-selection.ts",
+    "./use-data-grid-state": "./src/use-data-grid-state.ts",
+    "./use-handle-day-click": "./src/use-handle-day-click.ts",
+    "./use-lock-body-scroll-dialog": "./src/use-lock-body-scroll-dialog.ts",
+    "./use-lock-body-scroll-popover": "./src/use-lock-body-scroll-popover.ts",
+    "./use-random": "./src/use-random.ts",
+    "./use-debounce": "./src/use-debounce.ts",
+    "./use-local-storage": "./src/use-local-storage.ts"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0",
+    "typescript": "^5.7.0"
+  }
+}
