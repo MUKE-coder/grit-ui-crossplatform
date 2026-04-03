@@ -10,6 +10,7 @@ keywords = ["leptos", "ui", "tailwind", "css", "clx"]
 categories = ["gui", "web-programming", "development-tools", "accessibility", "wasm"]
 license = "MIT"
 readme = "./README.md"
+repository = "https://github.com/rust-ui/ui/tree/main/crates/leptos_ui"
 
 
 [dependencies]

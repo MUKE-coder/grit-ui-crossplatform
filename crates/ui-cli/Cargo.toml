@@ -9,8 +9,7 @@ keywords = ["cli", "ui", "components", "leptos", "tailwind"]
 categories = ["gui", "web-programming", "development-tools", "accessibility", "wasm"]
 license = "MIT"
 readme = "./README.md"
-
-repository = "https://github.com/rust-ui/cli"
+repository = "https://github.com/rust-ui/ui/tree/main/crates/ui-cli"
 
 
 
